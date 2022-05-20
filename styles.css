@@ -1,0 +1,119 @@
+* {
+box-sizing: border-box;
+} body {
+padding: 0;
+margin: 0;
+}
+.container {
+width: 90%;
+margin: auto;
+} .logo {
+margin-top: 7%;
+}
+.main {
+width: 80%;
+gap: 23px;
+display: flex;
+flex-direction: column;
+margin: auto;
+} .main-text {
+margin-top: 12%;
+text-align: center;
+} .text2 {
+margin-top: -1.5%;
+} button {
+background-color: #3258fb;
+color: #ffffff;
+font-size: 15px;
+line-height: 26px;
+font-weight: 700;
+font-family: "Roboto";
+padding: 11px,22px,11px,22px;
+border-radius: 8px;
+border: none;
+box-shadow: 0px 8px 16px rgba(50, 88, 251, 0.24);
+width: 100%;
+} button:hover {
+background-color: #ffffff;
+color: black;
+} .main-text3 {
+margin-top: 24px;   
+font-family: "Roboto"; 
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+} .main-text3 > a {
+text-decoration: none;
+} input {
+font-weight: 400;
+font-family: "Roboto";
+font-size: 16px;
+line-height: 24px;
+width: 100%;
+border-radius: 8px;
+border: 1px solid rgba(145, 158, 171, 0.3);
+padding: 20px 30px;
+margin-bottom: 30px;
+} .main-text2 {
+margin-top: 24px;  
+font-family: "Roboto"; 
+font-weight: 400; 
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: #919EAB;
+} .sidebar {
+display: none;
+}
+@media screen and (min-width: 1280px) {
+.logo {
+display: none;
+} .main-text3 {
+order: -1;
+align-self: flex-end;
+margin-top: -20%;
+} .sidebar {
+display: block;
+} .sidebar {
+justify-content: center;
+align-items: center;
+width: 30%; 
+height: 100vh;
+box-shadow: 0px 16px 32px -4px rgba(145, 158, 171, 0.12);
+border-radius: 16px;   
+} .container {
+display: flex;
+} .sidebarimg {
+margin-top: 28vh;
+
+
+} span {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 30px;
+color: #333333; 
+margin-left: 1%; 
+margin: 3%;
+} .deskblock {
+width: 100%;
+display: flex;
+justify-content: space-between;
+} .deskblock[type="text"] {
+width: 46%;
+} .sidelogo {
+display: flex;
+margin: 5%; 
+} .main {
+align-items: center;   
+display: flex;
+flex-direction: column;
+margin: auto;
+}
+    
+
+}
+
+
